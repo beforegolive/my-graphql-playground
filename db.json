@@ -1,0 +1,36 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "first_name": "jacky",
+      "last_name": "hsu",
+      "email": "123",
+      "username": "un",
+      "friends": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "jacky2",
+      "last_name": "hsu2",
+      "email": "2",
+      "username": "un2",
+      "friends": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "first_name": "jacky3",
+      "last_name": "hsu3",
+      "email": "3",
+      "username": "un3",
+      "friends": [
+        2
+      ]
+    }
+  ]
+}
