@@ -8,7 +8,7 @@ function fetchResponseByURL(relativeURL) {
   return fetch(`${BASE_URL}${relativeURL}`).then((res) => res.json())
 }
 
-function fetchPeople(params) {
+function fetchPeople() {
   return fetchResponseByURL('/people').then((json) => json)
 }
 
